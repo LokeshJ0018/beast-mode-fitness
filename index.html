@@ -1,0 +1,1412 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>BEAST MODE FITNESS — Unleash Your Beast | Premium Bodybuilding & Strength Gym</title>
+  <meta name="description" content="Beast Mode Fitness is an elite bodybuilding and strength sanctuary. Experience calibrated iron, competition squat racks, Hammer Strength machines, and world-class coaching. No excuses. No limits. Only results.">
+  <meta name="keywords" content="Beast Mode Fitness, bodybuilding gym, powerlifting gym, strength training, heavy lifting, personal training, hardcore gym">
+  <meta name="theme-color" content="#090909">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BEAST MODE FITNESS — Premium Bodybuilding & Strength Gym">
+  <meta property="og:description" content="No Excuses. No Limits. Only Results. The ultimate sanctuary for dedicated lifters, powerlifters, and bodybuilders.">
+  <meta property="og:image" content="assets/hero-poster.jpg">
+
+  <!-- Favicon SVG Data URI -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23090909' rx='20'/%3E%3Cpath d='M20 70 L35 30 L50 60 L65 30 L80 70 L68 70 L58 48 L50 64 L42 48 L32 70 Z' fill='%23D20A24'/%3E%3Ccircle cx='50' cy='22' r='7' fill='%23F5F5F5'/%3E%3C/svg%3E">
+
+  <!-- Google Fonts: Oswald (Athletic Display) and Montserrat (Clean Modern Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Screen-reader Skip to Content -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Ambient Audio Indicator / Visualizer (Fictional Hardcore Gym Atmosphere) -->
+  <div class="ambient-ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>// NO EXCUSES</span>
+      <span>// NO LIMITS</span>
+      <span>// ONLY RESULTS</span>
+      <span>// HEAVYWEIGHT DIVISION</span>
+      <span>// ELEIKO CERTIFIED RIGS</span>
+      <span>// HAMMER STRENGTH ARSENAL</span>
+      <span>// 24/7 IRON SANCTUARY</span>
+      <span>// DISCIPLINE OVER MOTIVATION</span>
+      <span>// NO EXCUSES</span>
+      <span>// NO LIMITS</span>
+      <span>// ONLY RESULTS</span>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header" id="header" role="banner">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Beast Mode Fitness Home">
+        <span class="logo-mark">
+          <svg viewBox="0 0 40 40" width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 32L14 8L20 22L26 8L36 32H30L24 18L20 28L16 18L10 32H4Z" fill="url(#brandGrad)" />
+            <circle cx="20" cy="5" r="3.5" fill="#D20A24" />
+            <defs>
+              <linearGradient id="brandGrad" x1="4" y1="8" x2="36" y2="32" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#D20A24"/>
+                <stop offset="1" stop-color="#8F0018"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="logo-text">
+          <span class="brand-primary">BEAST MODE</span>
+          <span class="brand-sub">FITNESS</span>
+        </span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" role="navigation" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">HOME</a></li>
+          <li><a href="#about" class="nav-link">ABOUT</a></li>
+          <li><a href="#programs" class="nav-link">PROGRAMS</a></li>
+          <li><a href="#facilities" class="nav-link">FACILITIES</a></li>
+          <li><a href="#trainers" class="nav-link">TRAINERS</a></li>
+          <li><a href="#memberships" class="nav-link">MEMBERSHIP</a></li>
+          <li><a href="#gallery" class="nav-link">GALLERY</a></li>
+          <li><a href="#contact" class="nav-link">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Header Actions -->
+      <div class="nav-actions">
+        <a href="#memberships" class="btn btn-nav-cta">
+          <span>JOIN NOW</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Overlay -->
+    <div class="mobile-drawer" id="mobileDrawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation" hidden>
+      <div class="drawer-header">
+        <div class="drawer-logo">
+          <span class="brand-primary">BEAST MODE</span>
+          <span class="brand-sub">FITNESS</span>
+        </div>
+        <button class="drawer-close" id="drawerClose" aria-label="Close menu">&times;</button>
+      </div>
+      <nav class="drawer-nav">
+        <ul class="drawer-links">
+          <li><a href="#hero" class="drawer-link">HOME</a></li>
+          <li><a href="#about" class="drawer-link">ABOUT</a></li>
+          <li><a href="#programs" class="drawer-link">PROGRAMS</a></li>
+          <li><a href="#facilities" class="drawer-link">FACILITIES</a></li>
+          <li><a href="#trainers" class="drawer-link">TRAINERS</a></li>
+          <li><a href="#memberships" class="drawer-link">MEMBERSHIP</a></li>
+          <li><a href="#gallery" class="drawer-link">GALLERY</a></li>
+          <li><a href="#contact" class="drawer-link">CONTACT</a></li>
+        </ul>
+        <div class="drawer-cta-wrapper">
+          <a href="#memberships" class="btn btn-primary btn-block drawer-cta">EXPLORE MEMBERSHIPS</a>
+        </div>
+        <div class="drawer-meta">
+          <p class="drawer-tagline">NO EXCUSES. NO LIMITS. ONLY RESULTS.</p>
+          <p class="drawer-demo-badge">PORTFOLIO CLIENT DEMO</p>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content Landmark -->
+  <main id="main-content">
+
+    <!-- 3. HERO SECTION -->
+    <section class="hero-section" id="hero" aria-label="Hero Introduction">
+      <!-- Full-screen Background Video & Fallback Poster -->
+      <div class="hero-video-wrapper">
+        <video 
+          class="hero-video" 
+          autoplay 
+          muted 
+          loop 
+          playsinline 
+          poster="assets/hero-poster.jpg"
+          aria-hidden="true"
+          id="heroVideo">
+          <source src="assets/gym-hero.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <!-- Dark Atmospheric Red Overlay & Vignette -->
+        <div class="hero-overlay"></div>
+        <div class="hero-scanlines" aria-hidden="true"></div>
+      </div>
+
+      <!-- Hero Cinematic Content -->
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge reveal-item">
+            <span class="badge-dot"></span>
+            <span>HARDCORE BODYBUILDING & STRENGTH SANCTUARY</span>
+          </div>
+
+          <h1 class="hero-headline reveal-item">
+            <span class="headline-row">UNLEASH</span>
+            <span class="headline-row text-crimson-glow">YOUR BEAST.</span>
+          </h1>
+
+          <p class="hero-subtext reveal-item">
+            Train harder. Build strength. Become unstoppable.
+          </p>
+
+          <div class="hero-button-group reveal-item">
+            <a href="#memberships" class="btn btn-primary btn-large">
+              <span>EXPLORE MEMBERSHIPS</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#facilities" class="btn btn-outline btn-large">
+              <span>DISCOVER OUR GYM</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+            </a>
+          </div>
+
+          <!-- Video Playback Control Pill (Accessible) -->
+          <div class="hero-controls-wrapper reveal-item">
+            <button class="video-toggle-btn" id="videoToggleBtn" aria-label="Pause background video" title="Pause or play background video">
+              <svg class="icon-pause" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+              <svg class="icon-play" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="display:none;"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <span id="videoToggleText">PAUSE VIDEO</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Bottom Stats Bar -->
+      <div class="hero-stats-bar">
+        <div class="container stats-grid">
+          <div class="stat-card">
+            <div class="stat-num" data-count="15000">15,000+</div>
+            <div class="stat-label">SQ FT IRON ARENA</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num" data-count="100">100+</div>
+            <div class="stat-label">ELEIKO & HAMMER RIGS</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">24 / 7</div>
+            <div class="stat-label">BIOMETRIC ACCESS</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num text-crimson">100%</div>
+            <div class="stat-label">ZERO BS COMMITMENT</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Down Indicator -->
+      <a href="#about" class="hero-scroll-cue" aria-label="Scroll down to About section">
+        <span class="scroll-cue-text">SCROLL</span>
+        <span class="scroll-mouse">
+          <span class="scroll-wheel"></span>
+        </span>
+      </a>
+    </section>
+
+    <!-- 4. ABOUT SECTION -->
+    <section class="section about-section" id="about" aria-label="About Beast Mode Fitness">
+      <div class="container">
+        <div class="section-badge-wrapper">
+          <span class="section-kicker">// THE BEAST ETHOS</span>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Editorial Philosophy -->
+          <div class="about-text-col reveal-item">
+            <h2 class="section-headline">
+              BUILT FOR THOSE <br>
+              <span class="text-crimson-gradient">WHO NEVER QUIT.</span>
+            </h2>
+
+            <p class="about-lead">
+              We didn’t build Beast Mode Fitness for the casual jogger or the distracted gym-goer. We forged this cathedral of iron for individuals who live for progressive overload, respect the sacrifice of heavy compound movements, and refuse mediocrity.
+            </p>
+
+            <p class="about-body">
+              In a commercial fitness landscape dominated by gimmicks and comfortable excuses, Beast Mode stands as an unyielding fortress of discipline. Here, intensity is standard, chalk is plentiful, and the iron demands total honesty. Every dumbbell, squat rack, and cable pulley was selected with one objective: absolute physical and mental transformation.
+            </p>
+
+            <div class="about-pillars">
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 4h12M6 20h12M9 4v16M15 4v16M3 9h18M3 15h18"/></svg>
+                </div>
+                <div class="pillar-content">
+                  <h3 class="pillar-title">Pure Iron Atmosphere</h3>
+                  <p class="pillar-desc">No crowds wasting power racks on phone screens. Everyone under this roof trains with raw, relentless purpose.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+                <div class="pillar-content">
+                  <h3 class="pillar-title">Biomechanical Perfection</h3>
+                  <p class="pillar-desc">Calibrated competition barbells, calibrated steel discs, and optimal strength curves engineered for joint longevity and peak hypertrophy.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                </div>
+                <div class="pillar-content">
+                  <h3 class="pillar-title">Uncompromising Brotherhood</h3>
+                  <p class="pillar-desc">A tribe of serious lifters who push, spot, and hold each other accountable to the highest standard of athletic excellence.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-quote">
+              <blockquote>
+                “The weights never lie to you. Two hundred pounds will always be two hundred pounds. You either conquer the iron or you let it defeat you.”
+              </blockquote>
+              <cite>// BEAST MODE FOUNDING CREED</cite>
+            </div>
+          </div>
+
+          <!-- Right Column: Cinematic Visual Composition -->
+          <div class="about-media-col reveal-item">
+            <div class="composition-wrapper">
+              <div class="composition-card card-primary">
+                <img 
+                  src="assets/facility-racks.jpg" 
+                  alt="Beast Mode Fitness Olympic squat racks with red ambient lights"
+                  class="comp-img" 
+                  loading="lazy">
+                <div class="comp-overlay"></div>
+                <div class="comp-badge">
+                  <span class="badge-tag">IRON RIG CAGE</span>
+                  <span class="badge-status">12 HEAVY STATIONS</span>
+                </div>
+              </div>
+
+              <div class="composition-card card-secondary">
+                <img 
+                  src="assets/deadlift-strength.jpg" 
+                  alt="Athlete performing heavy deadlift with chalk cloud" 
+                  class="comp-img" 
+                  loading="lazy">
+                <div class="comp-overlay"></div>
+                <div class="comp-badge">
+                  <span class="badge-tag">RAW POWER</span>
+                  <span class="badge-status">CALIBRATED STEEL</span>
+                </div>
+              </div>
+
+              <!-- Graphic Accents -->
+              <div class="comp-hud" aria-hidden="true">
+                <div class="hud-crosshair top-left"></div>
+                <div class="hud-crosshair top-right"></div>
+                <div class="hud-crosshair bottom-left"></div>
+                <div class="hud-crosshair bottom-right"></div>
+                <div class="hud-data-tag">SYSTEM // 090909.D20A24</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. TRAINING PROGRAMS SECTION -->
+    <section class="section programs-section" id="programs" aria-label="Training Programs">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">// SPECIALIZED DISCIPLINES</span>
+          <h2 class="section-headline">
+            ENGINEERED FOR <span class="text-crimson-gradient">MAXIMUM DOMINANCE.</span>
+          </h2>
+          <p class="section-subtitle">
+            Every program is calibrated for progressive overload, neuromuscular recruitment, and measurable physiological progress.
+          </p>
+        </div>
+
+        <div class="programs-grid">
+          <!-- Program 1: Bodybuilding -->
+          <article class="program-card reveal-item" data-program="bodybuilding">
+            <div class="program-media">
+              <img 
+                src="assets/bodybuilding-curl.jpg" 
+                alt="Muscular bodybuilder performing heavy bicep curls" 
+                class="program-img" 
+                loading="lazy">
+              <div class="program-overlay"></div>
+              <span class="program-index">01</span>
+              <span class="program-tag">HYPERTROPHY & SCULPTING</span>
+            </div>
+            <div class="program-body">
+              <h3 class="program-title">BODYBUILDING</h3>
+              <p class="program-desc">
+                Targeted mechanical tension, metabolic stress, and time-under-tension protocols designed for maximum muscle hypertrophy and aesthetic symmetry.
+              </p>
+              <div class="program-specs">
+                <span>4-6 Days/Week</span>
+                <span>Hypertrophy Focus</span>
+              </div>
+              <button class="btn btn-card-action explore-program-btn" data-program-key="bodybuilding" aria-haspopup="dialog">
+                <span>EXPLORE PROGRAM</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Program 2: Strength & Powerlifting -->
+          <article class="program-card reveal-item" data-program="powerlifting">
+            <div class="program-media">
+              <img 
+                src="assets/deadlift-strength.jpg" 
+                alt="Powerlifter gripping bar for heavy deadlift with chalk" 
+                class="program-img" 
+                loading="lazy">
+              <div class="program-overlay"></div>
+              <span class="program-index">02</span>
+              <span class="program-tag">MAXIMAL FORCE</span>
+            </div>
+            <div class="program-body">
+              <h3 class="program-title">STRENGTH & POWERLIFTING</h3>
+              <p class="program-desc">
+                Master the Big Three: Squat, Bench, and Deadlift. Peaking blocks, RPE discipline, and calibrated competition steel to shatter personal records.
+              </p>
+              <div class="program-specs">
+                <span>3-5 Days/Week</span>
+                <span>Periodized Peaking</span>
+              </div>
+              <button class="btn btn-card-action explore-program-btn" data-program-key="powerlifting" aria-haspopup="dialog">
+                <span>EXPLORE PROGRAM</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Program 3: Fat Loss & Conditioning -->
+          <article class="program-card reveal-item" data-program="conditioning">
+            <div class="program-media">
+              <img 
+                src="assets/conditioning.jpg" 
+                alt="Athlete executing high-intensity battle ropes workout" 
+                class="program-img" 
+                loading="lazy">
+              <div class="program-overlay"></div>
+              <span class="program-index">03</span>
+              <span class="program-tag">METABOLIC FIRE</span>
+            </div>
+            <div class="program-body">
+              <h3 class="program-title">FAT LOSS & CONDITIONING</h3>
+              <p class="program-desc">
+                High-output anaerobic intervals, heavy sled pushes, and lactate threshold conditioning to burn fat while aggressively preserving hard-earned muscle.
+              </p>
+              <div class="program-specs">
+                <span>3-4 Days/Week</span>
+                <span>High Anaerobic ROI</span>
+              </div>
+              <button class="btn btn-card-action explore-program-btn" data-program-key="conditioning" aria-haspopup="dialog">
+                <span>EXPLORE PROGRAM</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Program 4: Personal Training -->
+          <article class="program-card reveal-item" data-program="personal-training">
+            <div class="program-media">
+              <img 
+                src="assets/personal-training.jpg" 
+                alt="Personal coach instructing athlete on lifting biomechanics" 
+                class="program-img" 
+                loading="lazy">
+              <div class="program-overlay"></div>
+              <span class="program-index">04</span>
+              <span class="program-tag">1-ON-1 APEX</span>
+            </div>
+            <div class="program-body">
+              <h3 class="program-title">PERSONAL TRAINING</h3>
+              <p class="program-desc">
+                Uncompromising one-on-one biomechanical mentorship, bespoke nutritional periodization, weekly biometric audits, and 24/7 coach accountability.
+              </p>
+              <div class="program-specs">
+                <span>Custom Schedule</span>
+                <span>Dedicated Elite Coach</span>
+              </div>
+              <button class="btn btn-card-action explore-program-btn" data-program-key="personal-training" aria-haspopup="dialog">
+                <span>EXPLORE PROGRAM</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. FACILITIES SECTION -->
+    <section class="section facilities-section" id="facilities" aria-label="Gym Facilities">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">// THE ARSENAL</span>
+          <h2 class="section-headline">
+            EQUIPMENT ENGINEERED <br>
+            <span class="text-crimson-gradient">WITHOUT COMPROMISE.</span>
+          </h2>
+          <p class="section-subtitle">
+            Every machine, rack, and barbell inside our 15,000 sq ft facility was hand-selected from the most respected strength manufacturers on the planet.
+          </p>
+        </div>
+
+        <div class="facilities-grid">
+          <!-- Facility 1: Free Weights -->
+          <div class="facility-card reveal-item">
+            <div class="facility-img-box">
+              <img src="assets/dumbbells.jpg" alt="Rack of heavy knurled steel dumbbells" loading="lazy">
+              <div class="facility-pill">TIER 1 STEEL</div>
+            </div>
+            <div class="facility-details">
+              <h3 class="facility-title">Premium Free Weights</h3>
+              <p class="facility-desc">Full urethane dumbbell runs up to 80kg+, Texas Power Bars, Ohio Deadlift Bars, and calibrated competition bumper plates.</p>
+              <ul class="facility-features">
+                <li>Dumbbells 2.5kg to 80kg+</li>
+                <li>Eleiko IPF-Approved Power Bars</li>
+                <li>Zero-wobble precision lock collars</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Facility 2: Squat Racks -->
+          <div class="facility-card reveal-item">
+            <div class="facility-img-box">
+              <img src="assets/facility-racks.jpg" alt="Heavy duty Olympic squat racks with chains" loading="lazy">
+              <div class="facility-pill">CAGE RIGS</div>
+            </div>
+            <div class="facility-details">
+              <h3 class="facility-title">Professional Squat Racks</h3>
+              <p class="facility-desc">12 modular 3x3" 11-gauge steel power cages equipped with safety straps, magnetic pin band pegs, and pull-up arrays.</p>
+              <ul class="facility-features">
+                <li>12 Heavy-Duty Power Stations</li>
+                <li>Integrated Band Peg Attachments</li>
+                <li>Drop-tested safety strap systems</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Facility 3: Strength Machines -->
+          <div class="facility-card reveal-item">
+            <div class="facility-img-box">
+              <img src="assets/facility-interior-1.jpg" alt="Hammer Strength plate-loaded machines in dark gym" loading="lazy">
+              <div class="facility-pill">PLATE LOADED</div>
+            </div>
+            <div class="facility-details">
+              <h3 class="facility-title">Strength Training Machines</h3>
+              <p class="facility-desc">Iso-lateral Hammer Strength and Arsenal Strength plate-loaded machines replicating natural convergent and divergent muscle mechanics.</p>
+              <ul class="facility-features">
+                <li>Hammer Strength Iso-Lateral Suite</li>
+                <li>Prime Fitness Adjustable Cam Pulleys</li>
+                <li>High-capacity 45-degree leg presses</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Facility 4: Functional Training Zone -->
+          <div class="facility-card reveal-item">
+            <div class="facility-img-box">
+              <img src="assets/conditioning.jpg" alt="Athletic turf lane for functional sled training" loading="lazy">
+              <div class="facility-pill">SPRINT & SLED</div>
+            </div>
+            <div class="facility-details">
+              <h3 class="facility-title">Functional Training Zone</h3>
+              <p class="facility-desc">A 40-meter heavy-duty indoor sprint turf track dedicated to weighted sled drives, farmer carries, battle ropes, and explosive plyometrics.</p>
+              <ul class="facility-features">
+                <li>40-Meter High-Traction Sprint Turf</li>
+                <li>Heavy Rogue Prowler Sleds</li>
+                <li>Thick battle ropes & slam balls</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Facility 5: Cardio Equipment -->
+          <div class="facility-card reveal-item">
+            <div class="facility-img-box">
+              <img src="assets/cardio.jpg" alt="Cardio mezzanine with rowers and curved treadmills" loading="lazy">
+              <div class="facility-pill">HIIT ARSENAL</div>
+            </div>
+            <div class="facility-details">
+              <h3 class="facility-title">High-Output Cardio Arena</h3>
+              <p class="facility-desc">Cardio machines engineered for high-intensity power output rather than passive entertainment: Concept2 rowers, SkiErgs, and Assault AirBikes.</p>
+              <ul class="facility-features">
+                <li>Concept2 Rowers & SkiErgs</li>
+                <li>Assault Fitness AirBikes</li>
+                <li>Woodway Curved Motorless Treadmills</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Facility 6: Workout & Recovery Areas -->
+          <div class="facility-card reveal-item">
+            <div class="facility-img-box">
+              <img src="assets/recovery.jpg" alt="Luxurious dark recovery lounge with sauna and plunge" loading="lazy">
+              <div class="facility-pill">BIO-RECOVERY</div>
+            </div>
+            <div class="facility-details">
+              <h3 class="facility-title">Workout & Recovery Lounge</h3>
+              <p class="facility-desc">Muscle grows during recovery. Our specialized restoration zone features infrared saunas, cold plunge immersion tubs, and contrast therapy.</p>
+              <ul class="facility-features">
+                <li>Sub-zero cold plunge plunge pools</li>
+                <li>Dry Finnish & Infrared saunas</li>
+                <li>Percussive massage therapy guns</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. TRAINER SECTION -->
+    <section class="section trainers-section" id="trainers" aria-label="Expert Trainers">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">// COACHING CADRE</span>
+          <h2 class="section-headline">
+            LEADERS OF <span class="text-crimson-gradient">THE IRON TRIBE.</span>
+          </h2>
+          <p class="section-subtitle">
+            Coaches who live the ethos, demand your absolute best, and teach biomechanics grounded in physiological truth.
+          </p>
+
+          <!-- Mandatory Demo Profile Disclaimer Badge -->
+          <div class="demo-profile-disclaimer" role="note">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            <span>DEMONSTRATION PROFILES — FICTIONAL COACHING PROTOTYPES FOR DEMO PURPOSES ONLY</span>
+          </div>
+        </div>
+
+        <div class="trainers-grid">
+          <!-- Trainer 1 -->
+          <article class="trainer-card reveal-item">
+            <div class="trainer-media">
+              <img src="assets/trainer-1.jpg" alt="Coach Marcus Vance Sterling in dark gym" class="trainer-img" loading="lazy">
+              <div class="trainer-overlay"></div>
+              <span class="trainer-specialty-pill">HEAD STRENGTH COACH</span>
+            </div>
+            <div class="trainer-info">
+              <div class="trainer-header">
+                <h3 class="trainer-name">Marcus “Vance” Sterling</h3>
+                <span class="trainer-role">Head of Hypertrophy & Biomechanics</span>
+              </div>
+              <p class="trainer-bio">
+                Focused on progressive overload protocols, mechanical tension curves, and injury-proof lifting biomechanics for serious physique athletes.
+              </p>
+              <div class="trainer-attributes">
+                <div class="attr-item">
+                  <span class="attr-label">Primary Discipline</span>
+                  <span class="attr-val">Hypertrophy & Powerbuilding</span>
+                </div>
+                <div class="attr-item">
+                  <span class="attr-label">Philosophy</span>
+                  <span class="attr-val">“Every rep must possess intent.”</span>
+                </div>
+              </div>
+              <a href="#contact" class="btn btn-outline btn-block trainer-book-btn" data-trainer="Marcus Sterling">
+                <span>CONSULT WITH MARCUS</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Trainer 2 -->
+          <article class="trainer-card reveal-item">
+            <div class="trainer-media">
+              <img src="assets/trainer-2.jpg" alt="Coach Elena Rox Rodriguez in athletic posture" class="trainer-img" loading="lazy">
+              <div class="trainer-overlay"></div>
+              <span class="trainer-specialty-pill">METABOLIC SPECIALIST</span>
+            </div>
+            <div class="trainer-info">
+              <div class="trainer-header">
+                <h3 class="trainer-name">Elena “Rox” Rodriguez</h3>
+                <span class="trainer-role">Master Conditioning & Stage Prep</span>
+              </div>
+              <p class="trainer-bio">
+                Specializing in high-output metabolic conditioning, explosive anaerobic power, stage symmetry presentation, and ruthless nutritional adherence.
+              </p>
+              <div class="trainer-attributes">
+                <div class="attr-item">
+                  <span class="attr-label">Primary Discipline</span>
+                  <span class="attr-val">Conditioning & Body Recomposition</span>
+                </div>
+                <div class="attr-item">
+                  <span class="attr-label">Philosophy</span>
+                  <span class="attr-val">“Discipline is forged in the final 5%.”</span>
+                </div>
+              </div>
+              <a href="#contact" class="btn btn-outline btn-block trainer-book-btn" data-trainer="Elena Rodriguez">
+                <span>CONSULT WITH ELENA</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Trainer 3 -->
+          <article class="trainer-card reveal-item">
+            <div class="trainer-media">
+              <img src="assets/trainer-3.jpg" alt="Coach Viktor Drago with chalk dusted hands" class="trainer-img" loading="lazy">
+              <div class="trainer-overlay"></div>
+              <span class="trainer-specialty-pill">BARBELL MASTER</span>
+            </div>
+            <div class="trainer-info">
+              <div class="trainer-header">
+                <h3 class="trainer-name">Viktor Drago</h3>
+                <span class="trainer-role">Heavyweight Powerlifting Specialist</span>
+              </div>
+              <p class="trainer-bio">
+                Dedicated to maximal force development, central nervous system adaptation, and bulletproof technique in the squat, bench press, and deadlift.
+              </p>
+              <div class="trainer-attributes">
+                <div class="attr-item">
+                  <span class="attr-label">Primary Discipline</span>
+                  <span class="attr-val">Powerlifting & Maximal Strength</span>
+                </div>
+                <div class="attr-item">
+                  <span class="attr-label">Philosophy</span>
+                  <span class="attr-val">“Doubt has no seat at this barbell.”</span>
+                </div>
+              </div>
+              <a href="#contact" class="btn btn-outline btn-block trainer-book-btn" data-trainer="Viktor Drago">
+                <span>CONSULT WITH VIKTOR</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. MEMBERSHIP PLANS SECTION -->
+    <section class="section membership-section" id="memberships" aria-label="Membership Tiers">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">// MEMBERSHIP TIERS</span>
+          <h2 class="section-headline">
+            INVEST IN YOUR <span class="text-crimson-gradient">RAW STRENGTH.</span>
+          </h2>
+          <p class="section-subtitle">
+            Transparent pricing for serious athletes. No hidden maintenance charges, no fine-print traps.
+          </p>
+
+          <!-- Illustrative Demo Price Disclaimer Banner -->
+          <div class="demo-pricing-notice" role="note">
+            <span class="notice-icon">⚠</span>
+            <span>ILLUSTRATIVE DEMO PRICING: All prices shown below are demonstration placeholders for client prototype review. No commercial purchases or credit card charges occur on this site.</span>
+          </div>
+
+          <!-- Billing Period Toggle -->
+          <div class="pricing-toggle-wrap">
+            <span class="toggle-label" id="monthlyLabel">Monthly</span>
+            <button class="pricing-toggle" id="pricingToggle" role="switch" aria-checked="false" aria-labelledby="monthlyLabel annualLabel">
+              <span class="toggle-knob"></span>
+            </button>
+            <span class="toggle-label" id="annualLabel">
+              Annual 
+              <span class="badge-save">SAVE 20%</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- STARTER PLAN -->
+          <div class="pricing-card reveal-item" data-plan="starter">
+            <div class="card-tier-header">
+              <span class="tier-tag">FOUNDATIONAL</span>
+              <h3 class="tier-name">STARTER</h3>
+              <p class="tier-summary">Essential access for dedicated lifters building baseline consistency.</p>
+            </div>
+
+            <div class="pricing-value-box">
+              <span class="currency">₹</span>
+              <span class="amount" data-monthly="999" data-annual="799">999</span>
+              <span class="period">/month</span>
+            </div>
+            <div class="billing-note" data-annual-note="Billed annually at ₹9,588/yr">Standard monthly billing</div>
+
+            <ul class="tier-perks" role="list">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D20A24" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Full access to main iron floor & free weights</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D20A24" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Standard gym hours: 06:00 – 16:00</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D20A24" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Full locker room & shower facility access</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D20A24" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Digital starter workout split blueprint</span>
+              </li>
+              <li class="perk-disabled">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                <span>24/7 Biometric access</span>
+              </li>
+              <li class="perk-disabled">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                <span>Infrared sauna & cold plunge</span>
+              </li>
+            </ul>
+
+            <button class="btn btn-outline btn-block select-plan-btn" data-plan="Starter">
+              <span>JOIN NOW</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+
+          <!-- PRO PLAN (FEATURED) -->
+          <div class="pricing-card featured-plan reveal-item" data-plan="pro">
+            <div class="featured-ribbon">
+              <span>MOST POPULAR BEAST PLAN</span>
+            </div>
+
+            <div class="card-tier-header">
+              <span class="tier-tag text-crimson">UNLIMITED HARDCORE</span>
+              <h3 class="tier-name">PRO</h3>
+              <p class="tier-summary">Our signature membership for the committed athlete seeking zero barriers.</p>
+            </div>
+
+            <div class="pricing-value-box">
+              <span class="currency">₹</span>
+              <span class="amount" data-monthly="1999" data-annual="1599">1,999</span>
+              <span class="period">/month</span>
+            </div>
+            <div class="billing-note" data-annual-note="Billed annually at ₹19,188/yr">Standard monthly billing</div>
+
+            <ul class="tier-perks" role="list">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D20A24" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <strong>Full 24/7 unlimited biometric keycard access</strong>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D20A24" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Unrestricted access to all 6 specialized iron zones</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D20A24" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>2 Free training guest passes per month</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D20A24" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Infrared sauna & contrast cold plunge recovery</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D20A24" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Monthly InBody 770 body composition analysis</span>
+              </li>
+              <li class="perk-disabled">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#555" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                <span>Dedicated personal coaching sessions</span>
+              </li>
+            </ul>
+
+            <button class="btn btn-primary btn-block select-plan-btn" data-plan="Pro">
+              <span>JOIN NOW</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+
+          <!-- ELITE PLAN -->
+          <div class="pricing-card reveal-item" data-plan="elite">
+            <div class="card-tier-header">
+              <span class="tier-tag">APEX VIP TIER</span>
+              <h3 class="tier-name">ELITE</h3>
+              <p class="tier-summary">All-inclusive VIP brotherhood package with personalized mentorship.</p>
+            </div>
+
+            <div class="pricing-value-box">
+              <span class="currency">₹</span>
+              <span class="amount" data-monthly="2999" data-annual="2399">2,999</span>
+              <span class="period">/month</span>
+            </div>
+            <div class="billing-note" data-annual-note="Billed annually at ₹28,788/yr">Standard monthly billing</div>
+
+            <ul class="tier-perks" role="list">
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D20A24" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Everything included in the Pro tier</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D20A24" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <strong>2 Monthly 1-on-1 Personal Training sessions</strong>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D20A24" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Dedicated VIP athlete locker with laundry perk</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D20A24" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Custom nutritional macros & periodization roadmap</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D20A24" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Unlimited guest passes (1 guest per visit)</span>
+              </li>
+              <li>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#D20A24" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>15% discount on in-house fuel bar & apparel</span>
+              </li>
+            </ul>
+
+            <button class="btn btn-outline btn-block select-plan-btn" data-plan="Elite">
+              <span>JOIN NOW</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. GALLERY SECTION -->
+    <section class="section gallery-section" id="gallery" aria-label="Gym Image Gallery">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">// VISUAL PROOF</span>
+          <h2 class="section-headline">
+            INSIDE THE <span class="text-crimson-gradient">CATHEDRAL OF IRON.</span>
+          </h2>
+          <p class="section-subtitle">
+            Explore the raw industrial aesthetic, heavy iron arsenals, and focused training energy captured live.
+          </p>
+
+          <!-- Interactive Category Filter -->
+          <div class="gallery-filters" role="tablist" aria-label="Gallery category filter">
+            <button class="filter-pill active" data-filter="all" role="tab" aria-selected="true">ALL SHOTS</button>
+            <button class="filter-pill" data-filter="interior" role="tab" aria-selected="false">INTERIOR</button>
+            <button class="filter-pill" data-filter="strength" role="tab" aria-selected="false">STRENGTH</button>
+            <button class="filter-pill" data-filter="equipment" role="tab" aria-selected="false">EQUIPMENT</button>
+          </div>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Gallery Item 1 -->
+          <div class="gallery-item reveal-item" data-category="interior" data-index="0" data-caption="Main Free-Weight Arena with Ambient Red Strip Lighting">
+            <img src="assets/facility-interior-1.jpg" alt="Beast Mode gym main floor interior" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="zoom-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <div class="gallery-caption-peek">Main Arena // Ambient Glow</div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 2 -->
+          <div class="gallery-item reveal-item" data-category="strength" data-index="1" data-caption="Heavy Bicep Barbell Curls During High-Volume Arm Protocol">
+            <img src="assets/bodybuilding-curl.jpg" alt="Bodybuilder curling barbell with chalk" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="zoom-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <div class="gallery-caption-peek">Barbell Curls // Hypertrophy</div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 3 -->
+          <div class="gallery-item reveal-item" data-category="equipment" data-index="2" data-caption="12 Olympic Heavy-Gauge Power Racks with Chalk Stations">
+            <img src="assets/facility-racks.jpg" alt="Competition squat cages and pull-up arrays" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="zoom-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <div class="gallery-caption-peek">Squat Cages // 11-Gauge Steel</div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 4 -->
+          <div class="gallery-item reveal-item" data-category="strength" data-index="3" data-caption="Heavyweight Deadlift Lockout with Raw Barbell Chalk Cloud">
+            <img src="assets/deadlift-strength.jpg" alt="Powerlifter locked out on maximal deadlift attempt" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="zoom-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <div class="gallery-caption-peek">Deadlift // Maximal Effort</div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 5 -->
+          <div class="gallery-item reveal-item" data-category="equipment" data-index="4" data-caption="Precision Knurled Dumbbells Racked Up to 80kg+">
+            <img src="assets/dumbbells.jpg" alt="Tiered dumbbell racks with chalk dust" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="zoom-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <div class="gallery-caption-peek">Dumbbell Tier // Precision Knurl</div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 6 -->
+          <div class="gallery-item reveal-item" data-category="strength" data-index="5" data-caption="Anaerobic Battle Ropes Conditioning on High-Traction Sprint Turf">
+            <img src="assets/conditioning.jpg" alt="Intense battle rope conditioning action" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="zoom-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <div class="gallery-caption-peek">Battle Ropes // Sprint Turf</div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 7 -->
+          <div class="gallery-item reveal-item" data-category="interior" data-index="6" data-caption="High-Output Cardio Rig Featuring Concept2 and Curved Treadmills">
+            <img src="assets/cardio.jpg" alt="Cardio mezzanine area" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="zoom-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <div class="gallery-caption-peek">Cardio Mezzanine // Concept2</div>
+            </div>
+          </div>
+
+          <!-- Gallery Item 8 -->
+          <div class="gallery-item reveal-item" data-category="interior" data-index="7" data-caption="Cold Plunge and Infrared Contrast Recovery Suite">
+            <img src="assets/recovery.jpg" alt="Recovery lounge with cold immersion tubs" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="zoom-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </span>
+              <div class="gallery-caption-peek">Contrast Recovery // Cold Plunge</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. TESTIMONIALS SECTION -->
+    <section class="section testimonials-section" id="testimonials" aria-label="Member Testimonials">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">// MEMBER ECHOES</span>
+          <h2 class="section-headline">
+            DISCIPLINE RECOGNIZES <span class="text-crimson-gradient">DISCIPLINE.</span>
+          </h2>
+          <p class="section-subtitle">
+            What committed lifters experience when they step away from commercial fitness and enter the iron sanctuary.
+          </p>
+
+          <!-- Explicit Sample Testimonial Disclaimer -->
+          <div class="demo-profile-disclaimer" role="note">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            <span>SAMPLE TESTIMONIAL PLACEHOLDERS — DEMONSTRATION PROTOTYPE QUOTES FOR REVIEW</span>
+          </div>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card reveal-item">
+            <div class="quote-stars" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="quote-text">
+              “Beast Mode isn’t like the commercial gyms where half the people sit scrolling on their phones. Here, everyone lifts with savage focus. The equipment is competition-grade, and the atmosphere drives you to hit PRs you never imagined.”
+            </p>
+            <div class="quote-author">
+              <div class="author-avatar">RK</div>
+              <div class="author-meta">
+                <span class="author-name">Rohan K.</span>
+                <span class="author-desc">Powerlifting Athlete • Member 14 Months</span>
+                <span class="author-stat">+45kg on Big Three Total</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card reveal-item">
+            <div class="quote-stars" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="quote-text">
+              “As a competitive physique athlete, finding a facility with calibrated bars, 12 proper squat racks, and zero fluff was impossible until I walked through these doors. The biomechanical setup and culture are second to none.”
+            </p>
+            <div class="quote-author">
+              <div class="author-avatar">SS</div>
+              <div class="author-meta">
+                <span class="author-name">Sameer S.</span>
+                <span class="author-desc">Classic Physique Competitor • Pro Member</span>
+                <span class="author-stat">Stage Ready // 7% Body Fat</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card reveal-item">
+            <div class="quote-stars" aria-label="5 out of 5 stars">
+              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+            </div>
+            <p class="quote-text">
+              “The energy here is infectious. If you are serious about shedding body fat and building real, athletic strength, this place will rewire your mindset completely. The coaching staff knows biomechanics inside out.”
+            </p>
+            <div class="quote-author">
+              <div class="author-avatar">AP</div>
+              <div class="author-meta">
+                <span class="author-name">Ananya P.</span>
+                <span class="author-desc">Strength & Conditioning • Elite Member</span>
+                <span class="author-stat">Lost 14kg // Deadlifts 1.5x Bodyweight</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. CONTACT SECTION -->
+    <section class="section contact-section" id="contact" aria-label="Contact and Trial Pass">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-kicker">// TAKE ACTION</span>
+          <h2 class="section-headline">
+            CLAIM YOUR <span class="text-crimson-gradient">TRIAL SESSION.</span>
+          </h2>
+          <p class="section-subtitle">
+            Experience the iron arena firsthand. Complete the inquiry form below for a demonstration trial pass.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Gym Info & Map Placeholder -->
+          <div class="contact-info-col reveal-item">
+            <div class="info-card">
+              <h3 class="info-card-title">IRON HEADQUARTERS</h3>
+              <p class="info-intro">
+                Drop in during staff hours to tour the floor, inspect our equipment, and talk training philosophy.
+              </p>
+
+              <div class="info-items">
+                <div class="info-item">
+                  <div class="info-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </div>
+                  <div class="info-text">
+                    <span class="info-label">GYM ADDRESS</span>
+                    <span class="info-val">108 Ironworks Blvd, Industrial District, Metro 40001 (Demo Location)</span>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="info-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  </div>
+                  <div class="info-text">
+                    <span class="info-label">PHONE HOTLINE</span>
+                    <span class="info-val">+91 98765 43210 (Demo Hotline)</span>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="info-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                  </div>
+                  <div class="info-text">
+                    <span class="info-label">WHATSAPP CHAT</span>
+                    <span class="info-val">+91 98765 43210 (Demo Chat)</span>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="info-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </div>
+                  <div class="info-text">
+                    <span class="info-label">OFFICIAL INQUIRIES</span>
+                    <span class="info-val">contact@beastmodefitness.demo</span>
+                  </div>
+                </div>
+
+                <div class="info-item">
+                  <div class="info-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  </div>
+                  <div class="info-text">
+                    <span class="info-label">OPENING HOURS</span>
+                    <span class="info-val">Mon – Fri: 05:00 – 23:00<br>Sat – Sun: 06:00 – 21:00<br><em>Pro & Elite: 24/7 Keycard Access</em></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Stylized Dark Map Preview -->
+              <div class="dark-map-box">
+                <div class="map-grid-lines"></div>
+                <div class="map-pulse-circle"></div>
+                <div class="map-pin">
+                  <span class="pin-dot"></span>
+                  <span class="pin-label">BEAST MODE IRON HQ</span>
+                </div>
+                <div class="map-coords">GPS: 19.0760° N, 72.8777° E (DEMO)</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Demonstration Form -->
+          <div class="contact-form-col reveal-item">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-banner">
+                <h3 class="form-title">TRIAL PASS & MEMBERSHIP INQUIRY</h3>
+                <p class="form-desc">Fill out your details to receive an instant demonstration trial confirmation.</p>
+              </div>
+
+              <div class="form-group">
+                <label for="fullName">Full Name <span class="req">*</span></label>
+                <div class="input-wrap">
+                  <input type="text" id="fullName" name="fullName" placeholder="e.g. Marcus Miller" required autocomplete="name">
+                  <span class="validation-icon" aria-hidden="true"></span>
+                </div>
+                <span class="field-error" id="nameError" role="alert">Please enter your full name.</span>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="email">Email Address <span class="req">*</span></label>
+                  <div class="input-wrap">
+                    <input type="email" id="email" name="email" placeholder="name@domain.com" required autocomplete="email">
+                    <span class="validation-icon" aria-hidden="true"></span>
+                  </div>
+                  <span class="field-error" id="emailError" role="alert">Please provide a valid email address.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="phone">Phone Number <span class="req">*</span></label>
+                  <div class="input-wrap">
+                    <input type="tel" id="phone" name="phone" placeholder="e.g. +91 98765 43210" required autocomplete="tel">
+                    <span class="validation-icon" aria-hidden="true"></span>
+                  </div>
+                  <span class="field-error" id="phoneError" role="alert">Please enter a valid 10-digit phone number.</span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="preferredPlan">Preferred Membership</label>
+                  <div class="select-wrap">
+                    <select id="preferredPlan" name="preferredPlan">
+                      <option value="Pro" selected>Pro Membership (₹1,999/mo) — Featured</option>
+                      <option value="Starter">Starter Membership (₹999/mo)</option>
+                      <option value="Elite">Elite Membership (₹2,999/mo)</option>
+                      <option value="Personal Training">Personal Training 1-on-1 Mentorship</option>
+                      <option value="Day Pass">One-Day Visitor Iron Pass</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="trainingGoal">Primary Training Focus</label>
+                  <div class="select-wrap">
+                    <select id="trainingGoal" name="trainingGoal">
+                      <option value="Bodybuilding">Bodybuilding & Hypertrophy</option>
+                      <option value="Powerlifting">Powerlifting & Maximal Strength</option>
+                      <option value="Fat Loss">Fat Loss & Conditioning</option>
+                      <option value="Athletic Performance">General Athletic Performance</option>
+                      <option value="Contest Prep">Competitive Stage Prep</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Training Background & Goals (Optional)</label>
+                <textarea id="message" name="message" rows="4" placeholder="Tell us about your current lifts, training history, or any specific questions..."></textarea>
+              </div>
+
+              <div class="form-group-checkbox">
+                <label class="custom-checkbox">
+                  <input type="checkbox" id="demoConsent" required>
+                  <span class="checkmark"></span>
+                  <span class="checkbox-label">I acknowledge that this is a client demonstration website and no server transmission or payments occur.</span>
+                </label>
+                <span class="field-error" id="consentError" role="alert">Please check the demonstration agreement.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block submit-btn" id="submitBtn">
+                <span class="btn-text">CLAIM YOUR DEMO TRIAL PASS</span>
+                <span class="btn-spinner" aria-hidden="true"></span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+
+              <div class="form-disclaimer">
+                <span>🔒 Privacy Protected: No marketing spam or data collection. Demonstration only.</span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 12. FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <!-- Brand Summary -->
+        <div class="footer-col brand-col">
+          <a href="#hero" class="brand-logo footer-logo" aria-label="Beast Mode Fitness Home">
+            <span class="logo-mark">
+              <svg viewBox="0 0 40 40" width="32" height="32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M4 32L14 8L20 22L26 8L36 32H30L24 18L20 28L16 18L10 32H4Z" fill="#D20A24" />
+                <circle cx="20" cy="5" r="3.5" fill="#F5F5F5" />
+              </svg>
+            </span>
+            <span class="logo-text">
+              <span class="brand-primary">BEAST MODE</span>
+              <span class="brand-sub">FITNESS</span>
+            </span>
+          </a>
+          <p class="footer-tagline">
+            NO EXCUSES. NO LIMITS. ONLY RESULTS.
+          </p>
+          <p class="footer-bio">
+            An elite bodybuilding and strength sanctuary built for athletes who demand progressive overload, calibrated iron, and unbroken discipline.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="social-icon" aria-label="Beast Mode Fitness on Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Beast Mode Fitness on YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Beast Mode Fitness on X">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l11.733 16h4.267l-11.733 -16z"/><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="Beast Mode Workout Spotify Playlist">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 11.8c3.2-.8 6.4-.6 9.4.6"/><path d="M7 9.4c3.9-.9 8-.8 11.8.8"/><path d="M9 14.5c2.5-.5 5-.3 7.3.7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-title">NAVIGATION</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Ethos</a></li>
+            <li><a href="#programs">Training Programs</a></li>
+            <li><a href="#facilities">Facility & Arsenal</a></li>
+            <li><a href="#trainers">Coaching Staff</a></li>
+            <li><a href="#memberships">Membership Plans</a></li>
+            <li><a href="#gallery">Media Gallery</a></li>
+            <li><a href="#contact">Contact & Location</a></li>
+          </ul>
+        </div>
+
+        <!-- Training Programs Links -->
+        <div class="footer-col">
+          <h4 class="footer-title">PROGRAMS</h4>
+          <ul class="footer-links">
+            <li><a href="#programs" class="footer-program-link" data-program-key="bodybuilding">Bodybuilding & Hypertrophy</a></li>
+            <li><a href="#programs" class="footer-program-link" data-program-key="powerlifting">Powerlifting & Big Three</a></li>
+            <li><a href="#programs" class="footer-program-link" data-program-key="conditioning">Fat Loss & Conditioning</a></li>
+            <li><a href="#programs" class="footer-program-link" data-program-key="personal-training">1-on-1 Elite Coaching</a></li>
+            <li><a href="#facilities">Infrared & Cold Recovery</a></li>
+            <li><a href="#contact">Guest Passes & Day Access</a></li>
+          </ul>
+        </div>
+
+        <!-- Demo Contact Info -->
+        <div class="footer-col">
+          <h4 class="footer-title">HEADQUARTERS</h4>
+          <address class="footer-contact-info">
+            <p>108 Ironworks Blvd, Industrial District<br>Metro 40001 (Demo Location)</p>
+            <p>Phone: +91 98765 43210</p>
+            <p>Email: contact@beastmodefitness.demo</p>
+            <p class="hours-tag">Mon–Fri: 05:00–23:00 | 24/7 Pro Access</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2026 BEAST MODE FITNESS. All rights reserved. Designed & built as a premium international freelance client demonstration.
+        </p>
+        <p class="demo-disclaimer-text">
+          Notice: This is a frontend demonstration prototype for a fictional brand. No real payments, client certifications, or user data collections are conducted.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top of page">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- PROGRAM DETAILS MODAL (ACCESSIBLE DIALOG) -->
+  <div class="modal-backdrop" id="programModal" role="dialog" aria-modal="true" aria-labelledby="modalProgramTitle" hidden>
+    <div class="modal-panel">
+      <button class="modal-close" id="modalClose" aria-label="Close details dialog">&times;</button>
+      <div class="modal-media-wrapper">
+        <img src="" alt="" id="modalProgramImg" class="modal-img">
+        <div class="modal-overlay"></div>
+        <span class="modal-category" id="modalProgramTag"></span>
+      </div>
+      <div class="modal-content">
+        <h3 class="modal-title" id="modalProgramTitle"></h3>
+        <p class="modal-lead" id="modalProgramLead"></p>
+
+        <div class="modal-section">
+          <h4 class="modal-subheading">// PROGRAM CURRICULUM & SPLIT</h4>
+          <ul class="modal-list" id="modalProgramSplit"></ul>
+        </div>
+
+        <div class="modal-section">
+          <h4 class="modal-subheading">// TARGET OUTCOMES</h4>
+          <div class="modal-tags" id="modalProgramOutcomes"></div>
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn btn-primary btn-block modal-enquire-btn" id="modalEnquireBtn">
+            <span>ENQUIRE FOR THIS PROGRAM</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- GALLERY LIGHTBOX MODAL (ACCESSIBLE DIALOG) -->
+  <div class="lightbox-backdrop" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Image Lightbox" hidden>
+    <div class="lightbox-toolbar">
+      <div class="lightbox-counter" id="lightboxCounter">1 / 8</div>
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close fullscreen view">&times;</button>
+    </div>
+
+    <div class="lightbox-stage">
+      <button class="lightbox-nav-btn prev" id="lightboxPrev" aria-label="Previous image">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+
+      <div class="lightbox-img-wrap">
+        <img src="" alt="" id="lightboxImg" class="lightbox-active-img">
+        <p class="lightbox-caption" id="lightboxCaption"></p>
+      </div>
+
+      <button class="lightbox-nav-btn next" id="lightboxNext" aria-label="Next image">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
